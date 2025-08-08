@@ -1,0 +1,145 @@
+.orta{
+    flex-wrap: wrap;
+    border: 1px solid hsla(0, 5%, 87%, 1);
+    border-radius: 50px;
+    margin-top: 100px;
+    width: 900px;
+    margin: 50px auto;
+    height: 770px;
+}
+.boshi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-left: 66px;
+    padding-top: 50px;
+}
+.bosh-right{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+h3{
+    color: hsla(13, 88%, 50%, 1);
+}
+.body-nevar{
+    flex-wrap: wrap;
+    margin-left: 65px;
+}
+.body-h1{
+    display: flex;
+    align-items: center;
+    padding-top: 131px;
+    justify-content: center;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: hsla(241, 75%, 21%, 1);
+}
+.body-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.body-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    border: none;
+    width: 570px;
+    height: 70px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    color: black;
+    background-color: hsla(0, 0%, 96%, 1);
+    transition: 300ms all ease;
+    & :hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: 300ms all ease;
+    }
+    
+}
+.body-buttonss{
+    border: none;
+    border-radius: 15px;
+    width: 500px;
+    height: 50px;
+    background-color: hsla(0, 0%, 96%, 1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 57px;
+}
+input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    opacity: 0.5;
+    font-size: 24px;
+}
+.button-ohir{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: hsla(13, 86%, 75%, 1);
+    transition: 300ms all ease;
+    & :hover{
+        color: white;
+        background-color: rgb(208, 70, 32);
+    }
+
+}
+.a-ohiri{
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+}
+.btn-ohir{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: 340px;
+    padding-bottom: 37px;
+}
+.button-ohiri{
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: hsla(13, 86%, 75%, 1);
+    transition: 300ms all ease;
+    & :hover{
+        color: white;
+        background-color: rgb(208, 70, 32);
+    }
+}
+
